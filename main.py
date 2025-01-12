@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from .api.endpoints import auth, users
+from .routes.endpoints import auth, users
 from .database import Base, engine
 
 # Create database tables
