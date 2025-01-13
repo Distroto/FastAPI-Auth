@@ -1,0 +1,73 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+*.venv
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Logs and debugging
+*.log
+*.pot
+*.pid
+*.gz
+*.pkl
+*.swp
+
+# Django
+*.sqlite3
+db.sqlite3
+
+# Flask
+instance/
+.webassets-cache
+
+# Cache and metadata
+*.egg-info/
+*.egg
+*.whl
+*.manifest
+*.spec
+.cache/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution files
+dist/
+build/
+*.egg-info/
+
+# Environment variables
+.env
+.env.*
+
+# Testing
+.tox/
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+
+# Documentation
+docs/_build/
+
+# IDE and editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.bak
+*.tmp
+*.old
